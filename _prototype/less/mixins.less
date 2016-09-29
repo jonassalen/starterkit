@@ -129,6 +129,9 @@
 .transition(@duration:0.3s) {
   transition: all @duration ease;
 }
+.transition(@prop: 'all', @duration:0.3s) {
+  transition: @prop @duration ease;
+}
 .no-transition() {
   transition: none;
 }
@@ -139,7 +142,7 @@
 .rotation(@deg:90deg){
   .transform(rotate(@deg));
 }
-.scale(@ratio:1.5){
+.scale(@ratio:1.1){
   .transform(scale(@ratio));
 }
 .translate(@x:0, @y:0) {
