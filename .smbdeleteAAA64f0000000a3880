@@ -1,0 +1,1 @@
+var functietitel=function(){var t=0,n=function(t){};return{init:n}}();$(document).ready(function(){functietitel.init($("#page"))});

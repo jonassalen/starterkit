@@ -5,12 +5,16 @@
 ----------------------------------------------------*/
 
 var functietitel = (function () {
+
+  var functievariabele = 0;
+
   var init = function (contentObj) {
     // your code here
   };
   return {
     init: init
   };
+
 })();
 
 $(document).ready(function() {

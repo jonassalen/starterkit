@@ -16,7 +16,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_prototype\/js\/init.js",
-		"outputAbbreviatedPath": "\/scripts\/init-min.js",
+		"outputAbbreviatedPath": "\/init-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 1,
@@ -183,12 +183,12 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/scripts\/init-min.js": {
+	"\/scripts\/init.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scripts\/init-min.js",
-		"outputAbbreviatedPath": "\/scripts\/min\/init-min-min.js",
+		"inputAbbreviatedPath": "\/scripts\/init.js",
+		"outputAbbreviatedPath": "\/scripts\/min\/init-ck.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
