@@ -91,20 +91,20 @@
 
 /*------------------------- CSS3 MIXINS: BORDERS ---------------*/
 
-.border(@color: #EEE) {
-  border: solid 1px @color;
-}
 .border(@top-color: #EEE, @right-color: #EEE, @bottom-color: #EEE, @left-color: #EEE) {
   border-top: solid 1px @top-color;
   border-left: solid 1px @left-color;
   border-right: solid 1px @right-color;
   border-bottom: solid 1px @bottom-color;
 }
-.rounded(@radius: 2px) {
-  border-radius: @radius;
+.border(@color: #EEE) {
+  border: solid 1px @color;
 }
 .rounded(@topright: 2px, @bottomright: 2px, @bottomleft: 2px, @topleft: 2px) {
   border-radius: @topleft @topright @bottomright @bottomleft;
+}
+.rounded(@radius: 2px) {
+  border-radius: @radius;
 }
 
 /*------------------------- CSS3 MIXINS: SHADOWS ---------------*/
@@ -126,16 +126,15 @@
 
 /*------------------------- CSS3 MIXINS: TRANSFORM & ANIMATIONS ---------------*/
 
-.transition(@duration:0.3s) {
-  transition: all @duration ease;
-}
 .transition(@prop: 'all', @duration:0.3s) {
   transition: @prop @duration ease;
+}
+.transition(@duration:0.3s) {
+  transition: all @duration ease;
 }
 .no-transition() {
   transition: none;
 }
-
 .transform(@arguments) {
   transform: @arguments;
 }
@@ -157,12 +156,6 @@
 
 /*------------------------- MIXINS: POSITIONING ---------------*/
 
-.absCenter() {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  .translate(-50%,-50%);
-}
 .absCenter(@objW, @objH) {
   position: absolute;
   top: 50%;
@@ -170,25 +163,31 @@
   margin-left: -@objW/2;
   margin-top: -@objH/2;
 }
-.absCenterHor() {
+.absCenter() {
   position: absolute;
+  top: 50%;
   left: 50%;
-  .translateX(-50%);
+  .translate(-50%,-50%);
 }
 .absCenterHor(@objW) {
   position: absolute;
   left: 50%;
   margin-left: -@objW/2;
 }
-.absCenterVer() {
+.absCenterHor() {
   position: absolute;
-  top: 50%;
-  .translateY(-50%);
+  left: 50%;
+  .translateX(-50%);
 }
 .absCenterVer(@objH) {
   position: absolute;
   top: 50%;
   margin-top: -@objH/2;
+}
+.absCenterVer() {
+  position: absolute;
+  top: 50%;
+  .translateY(-50%);
 }
 
 /*------------------------- MIXINS: IMAGE REPLACEMENT ---------------*/

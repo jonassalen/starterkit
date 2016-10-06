@@ -27,7 +27,6 @@
 *.sqlite
 *.config
 *.htaccess
-*.aspx
 
 # OS generated files #
 ######################
