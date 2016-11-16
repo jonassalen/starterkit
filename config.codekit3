@@ -9,6 +9,36 @@
 	],
 "creatorBuild": "25444",
 "files": {
+	"\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.gitignore",
+		"oF": 0
+		},
+	"\/.smbdeleteAAA1f0000000092a5": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.smbdeleteAAA1f0000000092a5",
+		"oF": 0
+		},
+	"\/.smbdeleteAAA240000000092b4": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.smbdeleteAAA240000000092b4",
+		"oF": 0
+		},
+	"\/.smbdeleteAAA340000000092b0": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.smbdeleteAAA340000000092b0",
+		"oF": 0
+		},
+	"\/.smbdeleteAAA340000000092b3": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.smbdeleteAAA340000000092b3",
+		"oF": 0
+		},
 	"\/_prototype\/_archive\/README.md": {
 		"cS": 0,
 		"eF": 0,
@@ -215,6 +245,15 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/init.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/min\/init-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/README.md": {
 		"cS": 0,
