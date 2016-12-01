@@ -54,3 +54,8 @@ Thumbs.db
 **/umbraco_client/
 **/usercontrols/
 **/xslt/
+
+# Sass cache #
+##############
+**/scss/.sass-cache
+**/scss/.sass-cache/*
