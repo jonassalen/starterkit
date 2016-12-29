@@ -11,30 +11,14 @@
   ---------------------------------------------------*/
 /*------------------------- MIXINS: SPRITE FUNCTIONS ---------------*/
 /*------------------------- LAYOUT ---------------*/
-/*.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus {
-	clip:auto;
-	height:auto;
-	margin:0;
-	overflow:visible;
-	position:static;
-	width:auto;
-}
-/*.group:before,.group:after {
-	content:"";
-	display:table;
-}
-.group:after {
-	clear:both;
-}
-.group {
-	zoom:1;
-}*/
+/*------------------------- CSS3 MIXINS: GRADIENTS ---------------*/
 /*------------------------- CSS3 MIXINS: BACKGROUNDS ---------------*/
 /*------------------------- CSS3 MIXINS: BORDERS ---------------*/
 /*------------------------- CSS3 MIXINS: SHADOWS ---------------*/
 /*------------------------- CSS3 MIXINS: TRANSFORM & ANIMATIONS ---------------*/
 /*------------------------- MIXINS: POSITIONING ---------------*/
 /*------------------------- MIXINS: IMAGE REPLACEMENT ---------------*/
+/*------------------------- CLEARFIX ---------------*/
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.

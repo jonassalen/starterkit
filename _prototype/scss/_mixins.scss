@@ -15,13 +15,13 @@
   position: absolute;
 }
 @mixin sprite($imgScale, $imgPosX, $imgPosY, $objW, $objH) {
-  background: url($imgUrl) no-repeat ceil($imgPosX*$imgScale) ceil($imgPosY*$imgScale);
-  background-size: floor($imgW*$imgScale) ceil($imgH*$imgScale);
+  background: url($sprite) no-repeat ceil($imgPosX*$imgScale) ceil($imgPosY*$imgScale);
+  background-size: floor($spriteW*$imgScale) ceil($spriteH*$imgScale);
   width: ceil($objW*$imgScale);
   height: ceil($objH*$imgScale);
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-    background: url($sprite2x) no-repeat ceil($posX*$scale) ceil($posY*$scale);
-    background-size: floor($spriteW*$scale) ceil($spriteH*$scale);
+    background: url($sprite2x) no-repeat ceil($imgPosX*$imgScale) ceil($imgPosY*$imgScale);
+    background-size: floor($spriteW*$imgScale) ceil($spriteH*$imgScale);
   }
 }
 
@@ -64,24 +64,15 @@
 	position:absolute;
 	width:1px;
 }
-/*.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus {
-	clip:auto;
-	height:auto;
-	margin:0;
-	overflow:visible;
-	position:static;
-	width:auto;
+
+/*------------------------- CSS3 MIXINS: GRADIENTS ---------------*/
+@mixin gradient($startcolor, $endcolor, $rotation: to bottom) {
+  background: $startcolor;
+  background: -webkit-linear-gradient($rotation, $startcolor, $endcolor);
+  background: -o-linear-gradient($rotation, $startcolor, $endcolor);
+  background: -moz-linear-gradient($rotation, $startcolor, $endcolor);
+  background: linear-gradient($rotation, $startcolor, $endcolor);
 }
-/*.group:before,.group:after {
-	content:"";
-	display:table;
-}
-.group:after {
-	clear:both;
-}
-.group {
-	zoom:1;
-}*/
 
 /*------------------------- CSS3 MIXINS: BACKGROUNDS ---------------*/
 
@@ -156,7 +147,7 @@
 
 /*------------------------- MIXINS: POSITIONING ---------------*/
 
-@mixin absCenter($objW, $objH) {
+@mixin absCenterH($objW, $objH) {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -169,7 +160,7 @@
   left: 50%;
   @include translate(-50%,-50%);
 }
-@mixin absCenterHor($objW) {
+@mixin absCenterHorH($objW) {
   position: absolute;
   left: 50%;
   margin-left: -$objW/2;
@@ -179,7 +170,7 @@
   left: 50%;
   @include translateX(-50%);
 }
-@mixin absCenterVer($objH) {
+@mixin absCenterVerH($objH) {
   position: absolute;
   top: 50%;
   margin-top: -$objH/2;
@@ -209,4 +200,16 @@
   br {
     display: none;
   }
+}
+
+/*------------------------- CLEARFIX ---------------*/
+@mixin group() {
+  &:before, &:after {
+    content: "";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+  zoom: 1;
 }
