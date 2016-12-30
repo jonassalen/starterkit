@@ -65,21 +65,25 @@
 	padding:0;
 	position:absolute;
 	width:1px;
+  .focusable:active, .focusable:focus {
+    clip:auto;
+  	height:auto;
+  	margin:0;
+  	overflow:visible;
+  	position:static;
+  	width:auto;
+  }
 }
-@mixin visuallyhidden.focusable:active, @mixin visuallyhidden.focusable:focus {
-	clip:auto;
-	height:auto;
-	margin:0;
-	overflow:visible;
-	position:static;
-	width:auto;
+@mixin group {
+	&:before, &:after {
+    content:"";
+  	display:table;
+  }
 }
-@mixin group:before, @mixin group:after {
-	content:"";
-	display:table;
-}
-@mixin group:after {
-	clear:both;
+@mixin group {
+  &:after {
+  	clear:both;
+  }
 }
 @mixin group {
 	zoom:1;
@@ -100,7 +104,7 @@
   border-bottom: solid 1px $bottom-color;
 }
 @mixin border($color: #EEE) {
-  border: solid 1px @color;
+  border: solid 1px $color;
 }
 @mixin rounded($topright: 2px, $bottomright: 2px, $bottomleft: 2px, $topleft: 2px) {
   border-radius: $topleft $topright $bottomright $bottomleft;
@@ -111,10 +115,10 @@
 
 /*------------------------- CSS3 MIXINS: SHADOWS ---------------*/
 @mixin shadow($x-axis: 0, $y-axis: 0, $blur: 4px, $alpha: 0.5) {
-  box-shadow: @x-axis @y-axis @blur rgba(0, 0, 0, $alpha);
+  box-shadow: $x-axis $y-axis $blur rgba(0, 0, 0, $alpha);
 }
 @mixin inner-shadow($x-axis: 1px, $y-axis: 2px, $blur: 3px, $alpha: 0.1) {
-  box-shadow: inset $x-axis $y-axis $blur rgba(0, 0, 0, @alpha);
+  box-shadow: inset $x-axis $y-axis $blur rgba(0, 0, 0, $alpha);
 }
 @mixin no-shadow() {
   box-shadow: none;
