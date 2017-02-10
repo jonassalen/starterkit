@@ -15,6 +15,36 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
+	"\/.smbdeleteAAA1f0000000092a5": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.smbdeleteAAA1f0000000092a5",
+		"oF": 0
+		},
+	"\/.smbdeleteAAA240000000092b4": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.smbdeleteAAA240000000092b4",
+		"oF": 0
+		},
+	"\/.smbdeleteAAA340000000092b0": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.smbdeleteAAA340000000092b0",
+		"oF": 0
+		},
+	"\/.smbdeleteAAA340000000092b3": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.smbdeleteAAA340000000092b3",
+		"oF": 0
+		},
+	"\/.smbdeleteAAA390000000092b6": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.smbdeleteAAA390000000092b6",
+		"oF": 0
+		},
 	"\/_prototype\/_archive\/README.md": {
 		"cS": 0,
 		"eF": 1,
@@ -65,42 +95,6 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
-		},
-	"\/_prototype\/scss\/.sass-cache\/dae557396ed13f6e05abdfb9c33cfcb29aff9897\/_bootstrap.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/_prototype\/scss\/.sass-cache\/dae557396ed13f6e05abdfb9c33cfcb29aff9897\/_bootstrap.scssc",
-		"oF": 0
-		},
-	"\/_prototype\/scss\/.sass-cache\/dae557396ed13f6e05abdfb9c33cfcb29aff9897\/_fonts.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/_prototype\/scss\/.sass-cache\/dae557396ed13f6e05abdfb9c33cfcb29aff9897\/_fonts.scssc",
-		"oF": 0
-		},
-	"\/_prototype\/scss\/.sass-cache\/dae557396ed13f6e05abdfb9c33cfcb29aff9897\/_mixins.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/_prototype\/scss\/.sass-cache\/dae557396ed13f6e05abdfb9c33cfcb29aff9897\/_mixins.scssc",
-		"oF": 0
-		},
-	"\/_prototype\/scss\/.sass-cache\/dae557396ed13f6e05abdfb9c33cfcb29aff9897\/_print.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/_prototype\/scss\/.sass-cache\/dae557396ed13f6e05abdfb9c33cfcb29aff9897\/_print.scssc",
-		"oF": 0
-		},
-	"\/_prototype\/scss\/.sass-cache\/dae557396ed13f6e05abdfb9c33cfcb29aff9897\/_variables.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/_prototype\/scss\/.sass-cache\/dae557396ed13f6e05abdfb9c33cfcb29aff9897\/_variables.scssc",
-		"oF": 0
-		},
-	"\/_prototype\/scss\/.sass-cache\/dae557396ed13f6e05abdfb9c33cfcb29aff9897\/style.scssc": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_prototype\/scss\/.sass-cache\/dae557396ed13f6e05abdfb9c33cfcb29aff9897\/style.scssc",
-		"oF": 0
 		},
 	"\/_prototype\/scss\/_bootstrap.scss": {
 		"aP": 0,
@@ -168,16 +162,16 @@
 		"uL": 1
 		},
 	"\/_prototype\/scss\/style.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 0,
 		"oAP": "\/css\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/apple-touch-icon.png": {
@@ -271,7 +265,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 507466373,
-	"displayValue": "LUON-starterkit",
+	"displayValue": "LUON starterkit",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "\/apple-touch-icon.png"
 	},

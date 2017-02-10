@@ -68,9 +68,6 @@
 /*------------------------- CSS3 MIXINS: GRADIENTS ---------------*/
 @mixin gradient($startcolor, $endcolor, $rotation: to bottom) {
   background: $startcolor;
-  background: -webkit-linear-gradient($rotation, $startcolor, $endcolor);
-  background: -o-linear-gradient($rotation, $startcolor, $endcolor);
-  background: -moz-linear-gradient($rotation, $startcolor, $endcolor);
   background: linear-gradient($rotation, $startcolor, $endcolor);
 }
 
@@ -82,17 +79,8 @@
 
 /*------------------------- CSS3 MIXINS: BORDERS ---------------*/
 
-@mixin border($top-color: #EEE, $right-color: #EEE, $bottom-color: #EEE, $left-color: #EEE) {
-  border-top: solid 1px $top-color;
-  border-left: solid 1px $left-color;
-  border-right: solid 1px $right-color;
-  border-bottom: solid 1px $bottom-color;
-}
 @mixin border($color: #EEE) {
   border: solid 1px $color;
-}
-@mixin rounded($topright: 2px, $bottomright: 2px, $bottomleft: 2px, $topleft: 2px) {
-  border-radius: $topleft $topright $bottomright $bottomleft;
 }
 @mixin rounded($radius: 2px) {
   border-radius: $radius;
@@ -117,9 +105,6 @@
 
 /*------------------------- CSS3 MIXINS: TRANSFORM & ANIMATIONS ---------------*/
 
-@mixin transition($prop: 'all', $duration:0.3s) {
-  transition: $prop $duration ease;
-}
 @mixin transition($duration:0.3s) {
   transition: all $duration ease;
 }
@@ -129,7 +114,7 @@
 @mixin transform($arguments) {
   transform: $arguments;
 }
-@mixin rotation($deg:90deg){
+@mixin rotate($deg:90deg){
   @include transform(rotate($deg));
 }
 @mixin scale($ratio:1.1){
@@ -147,33 +132,16 @@
 
 /*------------------------- MIXINS: POSITIONING ---------------*/
 
-@mixin absCenterH($objW, $objH) {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-left: -$objW/2;
-  margin-top: -$objH/2;
-}
 @mixin absCenter() {
   position: absolute;
   top: 50%;
   left: 50%;
   @include translate(-50%,-50%);
 }
-@mixin absCenterHorH($objW) {
-  position: absolute;
-  left: 50%;
-  margin-left: -$objW/2;
-}
 @mixin absCenterHor() {
   position: absolute;
   left: 50%;
   @include translateX(-50%);
-}
-@mixin absCenterVerH($objH) {
-  position: absolute;
-  top: 50%;
-  margin-top: -$objH/2;
 }
 @mixin absCenterVer() {
   position: absolute;
@@ -215,6 +183,12 @@
 }
 
 /*---------------------- UNDERLINE (werkt niet met achtergrondafbeeldingen/gradients) ---------------*/
+/* example:
+  a {
+    @include link-underline(#fff, #333, #0CBF);
+  }
+*/
+
 @mixin text-underline-crop($background) {
   text-shadow:  .03em 0 $background,
                   -.03em 0 $background,
@@ -269,9 +243,3 @@
     color: $text;
   }
 }
-
-/* example:
-  a {
-    @include link-underline(#fff, #333, #0CBF);
-  }
-*/
