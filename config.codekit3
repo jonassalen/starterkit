@@ -4,10 +4,10 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "7CC50351-B880-4AAF-B236-B00C90FB4617"
+		"uuidString": "3BEF9BA6-FA96-4685-971E-DD622C9C1752"
 		}
 	],
-"creatorBuild": "25444",
+"creatorBuild": "25504",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
@@ -15,39 +15,9 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
-	"\/.smbdeleteAAA1f0000000092a5": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/.smbdeleteAAA1f0000000092a5",
-		"oF": 0
-		},
-	"\/.smbdeleteAAA240000000092b4": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/.smbdeleteAAA240000000092b4",
-		"oF": 0
-		},
-	"\/.smbdeleteAAA340000000092b0": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/.smbdeleteAAA340000000092b0",
-		"oF": 0
-		},
-	"\/.smbdeleteAAA340000000092b3": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/.smbdeleteAAA340000000092b3",
-		"oF": 0
-		},
-	"\/.smbdeleteAAA390000000092b6": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/.smbdeleteAAA390000000092b6",
-		"oF": 0
-		},
 	"\/_prototype\/_archive\/README.md": {
 		"cS": 0,
-		"eF": 0,
+		"eF": 1,
 		"eL": 1,
 		"eLB": 0,
 		"ema": 1,
@@ -65,7 +35,7 @@
 		},
 	"\/_prototype\/images\/README.md": {
 		"cS": 0,
-		"eF": 0,
+		"eF": 1,
 		"eL": 1,
 		"eLB": 0,
 		"ema": 1,
@@ -91,112 +61,124 @@
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/init.js",
-		"oF": 2,
+		"oAP": "\/_prototype\/js\/min\/init-min.js",
+		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/_prototype\/less\/bootstrap.less": {
-		"aP": 1,
-		"bl": 0,
-		"dJ": 0,
-		"ft": 1,
-		"ie": 1,
-		"iI": 0,
-		"ma": 1,
-		"oA": 0,
-		"oAP": "\/_prototype\/css\/bootstrap.css",
-		"oF": 0,
-		"oS": 1,
-		"rU": 0,
-		"sI": 0,
-		"sM": 0,
-		"sU": 0
+	"\/_prototype\/scss\/.sass-cache\/dae557396ed13f6e05abdfb9c33cfcb29aff9897\/_bootstrap.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/_prototype\/scss\/.sass-cache\/dae557396ed13f6e05abdfb9c33cfcb29aff9897\/_bootstrap.scssc",
+		"oF": 0
 		},
-	"\/_prototype\/less\/fonts.less": {
-		"aP": 1,
-		"bl": 0,
-		"dJ": 0,
-		"ft": 1,
-		"ie": 1,
-		"iI": 0,
-		"ma": 1,
-		"oA": 0,
-		"oAP": "\/_prototype\/css\/fonts.css",
-		"oF": 0,
-		"oS": 1,
-		"rU": 0,
-		"sI": 0,
-		"sM": 0,
-		"sU": 0
+	"\/_prototype\/scss\/.sass-cache\/dae557396ed13f6e05abdfb9c33cfcb29aff9897\/_fonts.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/_prototype\/scss\/.sass-cache\/dae557396ed13f6e05abdfb9c33cfcb29aff9897\/_fonts.scssc",
+		"oF": 0
 		},
-	"\/_prototype\/less\/mixins.less": {
-		"aP": 1,
-		"bl": 0,
-		"dJ": 0,
-		"ft": 1,
-		"ie": 1,
-		"iI": 0,
-		"ma": 1,
-		"oA": 0,
-		"oAP": "\/_prototype\/css\/mixins.css",
-		"oF": 0,
-		"oS": 1,
-		"rU": 0,
-		"sI": 0,
-		"sM": 0,
-		"sU": 0
+	"\/_prototype\/scss\/.sass-cache\/dae557396ed13f6e05abdfb9c33cfcb29aff9897\/_mixins.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/_prototype\/scss\/.sass-cache\/dae557396ed13f6e05abdfb9c33cfcb29aff9897\/_mixins.scssc",
+		"oF": 0
 		},
-	"\/_prototype\/less\/print.less": {
-		"aP": 1,
-		"bl": 0,
-		"dJ": 0,
-		"ft": 1,
-		"ie": 1,
-		"iI": 0,
-		"ma": 1,
-		"oA": 0,
-		"oAP": "\/_prototype\/css\/print.css",
-		"oF": 0,
-		"oS": 1,
-		"rU": 0,
-		"sI": 0,
-		"sM": 0,
-		"sU": 0
+	"\/_prototype\/scss\/.sass-cache\/dae557396ed13f6e05abdfb9c33cfcb29aff9897\/_print.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/_prototype\/scss\/.sass-cache\/dae557396ed13f6e05abdfb9c33cfcb29aff9897\/_print.scssc",
+		"oF": 0
 		},
-	"\/_prototype\/less\/style.less": {
-		"aP": 1,
+	"\/_prototype\/scss\/.sass-cache\/dae557396ed13f6e05abdfb9c33cfcb29aff9897\/_variables.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/_prototype\/scss\/.sass-cache\/dae557396ed13f6e05abdfb9c33cfcb29aff9897\/_variables.scssc",
+		"oF": 0
+		},
+	"\/_prototype\/scss\/.sass-cache\/dae557396ed13f6e05abdfb9c33cfcb29aff9897\/style.scssc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_prototype\/scss\/.sass-cache\/dae557396ed13f6e05abdfb9c33cfcb29aff9897\/style.scssc",
+		"oF": 0
+		},
+	"\/_prototype\/scss\/_bootstrap.scss": {
+		"aP": 0,
 		"bl": 0,
-		"dJ": 0,
-		"ft": 1,
-		"ie": 1,
-		"iI": 0,
-		"ma": 1,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_bootstrap.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/_prototype\/scss\/_fonts.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_fonts.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/_prototype\/scss\/_mixins.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_mixins.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/_prototype\/scss\/_print.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_print.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/_prototype\/scss\/_variables.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_variables.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/_prototype\/scss\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
 		"oA": 0,
 		"oAP": "\/css\/style.css",
-		"oF": 2,
-		"oS": 1,
-		"rU": 0,
-		"sI": 0,
-		"sM": 0,
-		"sU": 0
-		},
-	"\/_prototype\/less\/variables.less": {
-		"aP": 1,
-		"bl": 0,
-		"dJ": 0,
-		"ft": 1,
-		"ie": 1,
-		"iI": 0,
-		"ma": 1,
-		"oA": 0,
-		"oAP": "\/_prototype\/css\/variables.css",
 		"oF": 0,
-		"oS": 1,
-		"rU": 0,
-		"sI": 0,
-		"sM": 0,
-		"sU": 0
+		"oS": 0,
+		"uL": 1
 		},
 	"\/apple-touch-icon.png": {
 		"ft": 32768,
@@ -207,7 +189,7 @@
 		"opt": 0
 		},
 	"\/css\/style.css": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
@@ -230,7 +212,7 @@
 		},
 	"\/images\/README.md": {
 		"cS": 0,
-		"eF": 0,
+		"eF": 1,
 		"eL": 1,
 		"eLB": 0,
 		"ema": 1,
@@ -257,7 +239,7 @@
 		},
 	"\/README.md": {
 		"cS": 0,
-		"eF": 0,
+		"eF": 1,
 		"eL": 1,
 		"eLB": 0,
 		"ema": 1,
@@ -276,7 +258,7 @@
 	"\/scripts\/init-min.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/scripts\/min\/init-min-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -288,17 +270,17 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 501005596,
-	"displayValue": "LUON starterkit",
-	"displayValueWasSetByUser": 1,
+	"creationDate": 507466373,
+	"displayValue": "LUON-starterkit",
+	"displayValueWasSetByUser": 0,
 	"iconImageName": "\/apple-touch-icon.png"
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
 	"alwaysUseExternalServer": 0,
-	"animateCSSInjections": 0,
+	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
-	"autoprefixerBrowserString": "> 1%, last 2 versions, ff 17, opera 12.1",
+	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
@@ -735,6 +717,10 @@
 			"active": 0,
 			"optionString": "{'properties': 'always'}"
 			},
+		"capitalized-comments": {
+			"active": 0,
+			"optionString": "'always', {'ignoreInlineComments': false, 'ignoreConsecutiveComments': false}"
+			},
 		"class-methods-use-this": {
 			"active": 0,
 			"optionString": "{'exceptMethods': []}"
@@ -899,6 +885,10 @@
 			"active": 0,
 			"optionString": "{'max': 10}, {'ignoreTopLevelFunctions': true}"
 			},
+		"max-statements-per-line": {
+			"active": 0,
+			"optionString": "{'max': 1}"
+			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -928,6 +918,10 @@
 			"optionString": ""
 			},
 		"no-array-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-await-in-loop": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -1263,6 +1257,10 @@
 			"active": 0,
 			"optionString": "'except-parens'"
 			},
+		"no-return-await": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-script-url": {
 			"active": 0,
 			"optionString": ""
@@ -1467,6 +1465,10 @@
 			"active": 0,
 			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
 			},
+		"prefer-destructuring": {
+			"active": 0,
+			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
+			},
 		"prefer-numeric-literals": {
 			"active": 0,
 			"optionString": ""
@@ -1489,15 +1491,19 @@
 			},
 		"quotes": {
 			"active": 0,
-			"optionString": "'double', 'avoid-escape'"
+			"optionString": "'double', {'avoidEscape': true, 'allowTemplateLiterals': true}"
 			},
 		"radix": {
 			"active": 0,
 			"optionString": "'always'"
 			},
+		"require-await": {
+			"active": 0,
+			"optionString": ""
+			},
 		"require-jsdoc": {
 			"active": 0,
-			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false}}"
+			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
 			},
 		"require-yield": {
 			"active": 0,
@@ -1966,7 +1972,7 @@
 		"syntaxCheckerStyle": 1
 		},
 	"languageDefaultsCSS": {
-		"autoOutputAction": 2,
+		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*-min.css",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
@@ -1974,7 +1980,7 @@
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
 		"outputStyle": 3,
-		"shouldRunAutoprefixer": 0,
+		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0
 		},
 	"languageDefaultsGIF": {
@@ -2054,12 +2060,12 @@
 		"autoOutputPathReplace1": "less",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 2,
-		"createSourceMap": 1,
+		"createSourceMap": 0,
 		"disableJavascript": 0,
 		"ieCompatibility": 1,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 1,
+		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"strictImports": 0,
 		"strictMath": 0,
@@ -2073,7 +2079,7 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"criticStyle": 0,
-		"enableFootnotes": 0,
+		"enableFootnotes": 1,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
 		"escapeLineBreaks": 0,
@@ -2114,15 +2120,15 @@
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "..\/..\/css",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 2,
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 10,
 		"outputStyle": 0,
-		"shouldRunAutoprefixer": 1,
+		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 1
 		},
@@ -2151,7 +2157,7 @@
 		"importCSS": 0,
 		"outputStyle": 0,
 		"resolveRelativeURLS": 0,
-		"shouldRunAutoprefixer": 1,
+		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0
 		},
 	"languageDefaultsSVG": {
@@ -2327,6 +2333,10 @@
 			},
 		"space-colon": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"support-ie8": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"toplevel": {
