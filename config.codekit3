@@ -11,39 +11,39 @@
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/.gitignore",
-		"oF": 0
+		"oA": 1,
+		"oAP": "\/.gitignore.",
+		"oF": 1
 		},
 	"\/.smbdeleteAAA1f0000000092a5": {
 		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/.smbdeleteAAA1f0000000092a5",
-		"oF": 0
+		"oA": 1,
+		"oAP": "\/.smbdeleteAAA1f0000000092a5.",
+		"oF": 1
 		},
 	"\/.smbdeleteAAA240000000092b4": {
 		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/.smbdeleteAAA240000000092b4",
-		"oF": 0
+		"oA": 1,
+		"oAP": "\/.smbdeleteAAA240000000092b4.",
+		"oF": 1
 		},
 	"\/.smbdeleteAAA340000000092b0": {
 		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/.smbdeleteAAA340000000092b0",
-		"oF": 0
+		"oA": 1,
+		"oAP": "\/.smbdeleteAAA340000000092b0.",
+		"oF": 1
 		},
 	"\/.smbdeleteAAA340000000092b3": {
 		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/.smbdeleteAAA340000000092b3",
-		"oF": 0
+		"oA": 1,
+		"oAP": "\/.smbdeleteAAA340000000092b3.",
+		"oF": 1
 		},
 	"\/.smbdeleteAAA390000000092b6": {
 		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/.smbdeleteAAA390000000092b6",
-		"oF": 0
+		"oA": 1,
+		"oAP": "\/.smbdeleteAAA390000000092b6.",
+		"oF": 1
 		},
 	"\/_prototype\/_archive\/README.md": {
 		"cS": 0,
@@ -53,9 +53,9 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/_prototype\/_archive\/README.html",
-		"oF": 0,
+		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -71,9 +71,9 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/_prototype\/images\/README.html",
-		"oF": 0,
+		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -91,8 +91,8 @@
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/_prototype\/js\/min\/init-min.js",
-		"oF": 0,
+		"oAP": "\/scripts\/init-min.js",
+		"oF": 2,
 		"sC": 1,
 		"tS": 0
 		},
@@ -212,24 +212,15 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/images\/README.html",
-		"oF": 0,
+		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
-		},
-	"\/init.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/min\/init-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
 		},
 	"\/README.md": {
 		"cS": 0,
@@ -239,9 +230,9 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/README.html",
-		"oF": 0,
+		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -265,8 +256,8 @@
 	},
 "projectAttributes": {
 	"creationDate": 507466373,
-	"displayValue": "LUON starterkit",
-	"displayValueWasSetByUser": 0,
+	"displayValue": "LUON-starterkit",
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "\/apple-touch-icon.png"
 	},
 "projectSettings": {
@@ -2185,7 +2176,7 @@
 	"languageDefaultsUserDefined": [
 		],
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules, \/App_Data\/, \/App_Browsers\/, \/App_Code\/, \/aspnet_client\/, \/bin\/, \/config\/, \/macroScripts\/, \/masterpages\/, \/media\/, \/umbraco\/, \/umbraco_client\/, \/usercontrols\/, \/xslt\/",
 	"sourceFolderName": "source",
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
