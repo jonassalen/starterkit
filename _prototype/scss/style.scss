@@ -10,6 +10,10 @@ body, html, #page {
   min-height: 100vh;
 }
 
+#page {
+  overflow: hidden;
+}
+
 body {
   background: #FFFFFF;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;

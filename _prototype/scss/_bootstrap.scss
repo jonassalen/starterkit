@@ -2046,6 +2046,10 @@ select[multiple].input-lg {
 .form-horizontal .form-group {
   margin-left: -15px;
   margin-right: -15px;
+  [class^="col"] {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 @media (min-width: 768px) {
   .form-horizontal .control-label {
@@ -3068,7 +3072,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   table.visible-print {
     display: table !important;
   }
-  tr.visible-print { 
+  tr.visible-print {
     display: table-row !important;
   }
   th.visible-print,
